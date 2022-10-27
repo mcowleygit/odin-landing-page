@@ -1,0 +1,11 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-box {
+    height: 300px;
+    background: #1F2937;
+}
