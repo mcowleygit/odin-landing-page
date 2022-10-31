@@ -33,15 +33,18 @@ ul {
 }
 
 .box-two {
+    width: 100vw;
     height: 400px;
     display: flex;
-    justify-content: center;
+    flex: auto;
 }
 
 .container {
     display: flex;
+    flex: 1;
     gap: 5px;
     align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -49,9 +52,10 @@ ul {
     padding: 9px;
 }
 .blue-box {
-    height: 50px;
-    width: 50px;
-    background: blue;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    border: 2px solid #3882F6;
 }
 
 .img-subtext {
