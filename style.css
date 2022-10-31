@@ -31,3 +31,29 @@ ul {
     height: 50px;
     width: 100px;
 }
+
+.box-two {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.random { 
+    padding: 9px;
+}
+.blue-box {
+    height: 50px;
+    width: 50px;
+    background: blue;
+}
+
+.img-subtext {
+    width: 150px;
+}
